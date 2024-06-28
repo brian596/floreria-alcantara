@@ -1,0 +1,75 @@
+body {
+    background-image: url(https://img.freepik.com/vector-premium/hermoso-vintage-floral-patrones-fisuras_18228-948.jpg?w=740);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    color: white;
+}
+.resolucion {
+    width: 100%;
+}
+
+
+/**Movil**/
+
+@media (max-width: 767px) {
+    .desktop {
+        display: none;
+    }
+    .tablet {
+        display: none;
+    }
+}
+
+
+/**Tablet**/
+
+@media (min-width: 768px) and (max-width: 990px) {
+    .desktop {
+        display: none;
+    }
+    .movil {
+        display: none;
+    }
+}
+
+
+/**Escritorio**/
+
+@media (min-width: 991px) {
+    .tablet {
+        display: none;
+    }
+    .movil {
+        display: none;
+    }
+}
+
+.display-6  {
+    color: white;
+    text-align: center;
+    line-height: 1.2cm;
+    font-weight: normal;
+}
+
+.url {
+    color: rgb(51, 255, 0);
+    text-align: center;
+    line-height: .5cm;
+    font-weight: normal;
+}
+
+.sep{
+    line-height: .5cm;
+}
+
+.number {
+    color: green;
+    text-align: center;
+    line-height: 1.2cm;
+    font-weight: normal;
+}
